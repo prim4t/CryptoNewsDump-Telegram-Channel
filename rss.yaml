@@ -1,4 +1,4 @@
-- url: "https://rizkima.com/index.xml"
-  title: "Rizkima"
-  custom_message: "Update from Rizkima"
-  chat_id: "rsstotelegramdev"
+- url: "https://www.coinbureau.com/feed"
+  title: "CoinBureauFeed"
+  custom_message: "CoinBureau"
+  chat_id: "cryptonewsdump"
