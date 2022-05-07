@@ -1,0 +1,17 @@
+
+name: Rui
+
+on: 
+  schedule:
+    - cron: '0 */3 * * *'
+        
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - uses: rzkmak/rui@v1
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
